@@ -10,6 +10,7 @@ body,
 
 
 .main-container {
+  min-height: 120vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -88,6 +89,6 @@ p {
   }
 
   .city {
-    padding: 40px 20%;
+    padding: 30px 20%;
   }
 }

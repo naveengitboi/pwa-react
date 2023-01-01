@@ -18,7 +18,7 @@ function App() {
         <div className="main-container">
             <input type="text" 
             className=' search'
-            placeholder='search...'
+            placeholder='Weather TODAY:)'
             value={query}
             onChange = {(e)=> setQuery(e.target.value)}
             onKeyDown = {search}
